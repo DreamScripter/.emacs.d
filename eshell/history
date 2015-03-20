@@ -1,3 +1,120 @@
 ls -alrt
 cd .linuxband
 ls -alrt
+ls -lart
+ls -lart
+cd apps
+s
+ls -alrt
+cd alertme
+ls -l
+alias l='ls -alrt'
+l
+l
+l
+l
+l
+ls -alrt
+ls -l .
+l
+ls -l
+s
+l
+ls -lart .
+ls -alrt
+s
+ls -
+ls -lart
+ls -alccccls -alcccc
+s
+cd apps/
+s
+l
+ls -l
+cd alertme/
+ls -l
+type python
+alias python
+python alertme.py
+python3 alertme.py
+ls -lart
+ls -l
+ls -l
+cd apps
+s
+ls -l
+cd alertme/
+ls -l
+ls -l
+cd apps
+s
+ls -art
+ls -lart
+cd alertme/
+ls -lart
+ls -lart
+ls -l
+ls -lart
+ls -lart
+cd apps/
+ls -lart
+cd alertme/
+ls -alrt
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+python3 alertme.py
+ls -alrt
+ls -alrt
+ls -alrt
+ipython3
+ls -lart
+ls -l
+cd apps
+ls -lart
+cd alertme/
+s
+ls -lart
+python3 alertme.py
+ls -alrt
+ls -l
+ls -alrt
+ls -lart
+ls -alrt
+ls -alrt
+ls -lart
+ls -alrt
+ls -alrt
+ls -alrt
+ls -alrt
+cd apps/
+s
+ls -alrt
+ls -alrt
+ls -alrt
+ls -alrt
+cd apps
+s
+ls -alrt
+cd metronome/
+s
+ls -alrt
+cd sounds
+ls -lart
+pwd
+drwxr-xr-x   2 javier         javier    4096 2015-03-1s3 17:21 .
+ls -l s
+Invalid variable reference
+ls -l
+-rw-r--r--   1 javier         javier   88304 2015-03-13 17:20 cowbell_ls -lwav
+ls -l
+ls -l /home/javier/apps/metronome/sounds/cowbell_high.wav

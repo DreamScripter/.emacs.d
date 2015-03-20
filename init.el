@@ -9,10 +9,6 @@
 ;; ctrl-tab for cycle through windows 
 (global-set-key (kbd "<C-tab>") 'other-window)
 
-;; fuentes
-(add-to-list 'default-frame-alist '(font .  "Source Code Pro" ))
-(set-face-attribute 'default t :font  "Source Code Pro" )
-
 ;; package management
 (require 'package)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -20,11 +16,19 @@
 (package-initialize)
 
 ;; tema (colores)
-(load-theme 'wheatgrass t)  ;; para la noche
-;; (load-theme 'tsdh-light t)  ;; para el día
+(load-theme 'waher t) ;; para la noche
+;; (load-theme 'whiteboard t) ;; para el día
+
+;; fuentes
+(add-to-list 'default-frame-alist '(font .  "Source Code Pro" ))
+(set-face-attribute 'default t :font  "Source Code Pro" )
 
 ;; jedi
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)                 ; optional
 
-(load "~/.emacs.d/config/python_layout")
+;; supuestamente va más fluido así
+(setq redisplay-dont-pause t)
+
+;; entorno para python
+;; (load "~/.emacs.d/layouts/python-layout")
