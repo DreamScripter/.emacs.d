@@ -17,6 +17,24 @@
 
 (add-hook 'inferior-python-mode-hook 'mp-add-python-keys)
 
+;; hooks python mode
+(defun mp-add-jedi-python-keys ()
+  " remap some keys used for jedi "
+  (interactive)
+  (local-set-key (kbd "C-.") 'jedi:goto-definition)
+  (local-set-key (kbd "C-,") 'jedi:goto-definition-pop-marker)
+  (local-set-key (kbd "C-c d") 'jedi:show-doc))
+
+(add-hook 'python-mode-hook 'mp-add-jedi-python-keys)
+
+
+
+;; usa números de línea en los buffers con python-mode (pantalla izquierda)
+(defun my-python-mode-hook () 
+  (linum-mode 1)) 
+(add-hook 'python-mode-hook 'my-python-mode-hook)
+
+
 ;; crear estas ventanas:
 ;; 	| | |
 ;;	|_|_|
