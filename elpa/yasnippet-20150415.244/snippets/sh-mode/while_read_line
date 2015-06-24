@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: while_read_line
+# expand-env: ((yas-indent-line 'fixed))
+# key: wh
+# --
+while read line; do
+    $0
+done

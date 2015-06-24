@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: getopts
+# key: geto
+# expand-env: ((yas-indent-line 'fixed))
+# --
+while getopts "${1:a}:h" options; do
+    case "\${options}" in
+        $1)
+            # $2
+            $3
+            ;;
+        h)
+            help
+            exit 1
+            ;;
+        *)
+            help
+            exit 1
+            ;;
+    esac
+done
